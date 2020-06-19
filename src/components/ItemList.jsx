@@ -9,7 +9,7 @@ import '../assets/list.scss'
 
 class ItemList extends Component {
   componentDidMount() {
-    this.props.fetchData('http://api.tvmaze.com/shows')
+    this.props.fetchData('https://api.tvmaze.com/shows')
   }
 
   render() {
